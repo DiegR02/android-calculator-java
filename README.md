@@ -1,90 +1,56 @@
 # android-calculator-java
 
+A calculator Android application written in Java, built as a personal learning and practice project.
+
 ## Overview
 
-This repository contains a Java project prepared as part of a personal
-GitHub portfolio.
+This repository contains an Android calculator app developed in Java using Android Studio. It is intended as a hands-on exercise in Android development and is not production software.
 
 ## Tech Stack
 
-- Primary language: Java
-- Frameworks and tools: android
-- Project type: calculator, mobile-application
-
-## Repository Snapshot
-
-- Main language: Java
-- Category: learning_project
-- Priority: low
-- Days since update: 3
-- Has description: True
-- Has topics: True
-- Has README: True
-- Portfolio status: learning
-- Quality signals: has-license
-
-## Suggested Topics
-
-- android
-- calculator
-- java
-- learning-project
-- mobile-application
+| Layer | Technology |
+|---|---|
+| Language | Java |
+| Platform | Android |
+| Build system | Gradle |
+| IDE | Android Studio |
 
 ## Project Structure
 
-Observed repository paths:
+```
+android-calculator-java/
+├── Android-Studio.png
+├── LICENSE
+├── README.md
+└── Calculator/
+    ├── build.gradle
+    ├── gradle.properties
+    ├── gradlew
+    ├── gradlew.bat
+    ├── local.properties
+    ├── settings.gradle
+    ├── gradle/
+    │   └── wrapper/
+    │       ├── gradle-wrapper.jar
+    │       └── gradle-wrapper.properties
+    └── app/
+        ├── .gitignore
+        ├── build.gradle
+        ├── proguard-rules.pro
+        └── src/
+            ├── androidTest/
+            ├── main/
+            └── test/
+```
 
-- Android-Studio.png
-- Calculator
-- Calculator/app
-- Calculator/app/.gitignore
-- Calculator/app/build.gradle
-- Calculator/app/proguard-rules.pro
-- Calculator/app/src
-- Calculator/app/src/androidTest
-- Calculator/app/src/main
-- Calculator/app/src/test
-- Calculator/build.gradle
-- Calculator/gradle
-- Calculator/gradle.properties
-- Calculator/gradle/wrapper
-- Calculator/gradle/wrapper/gradle-wrapper.jar
-- Calculator/gradle/wrapper/gradle-wrapper.properties
-- Calculator/gradlew
-- Calculator/gradlew.bat
-- Calculator/local.properties
-- Calculator/settings.gradle
-- LICENSE
-- README.md
+## Getting Started
 
-## Installation
+Review the source files under `Calculator/` to confirm exact build requirements before running any commands. Setup instructions should be validated by a human before being added here.
 
-- Review the repository source files to confirm setup requirements.
-- Add exact commands after human validation.
+## License
 
-## Usage
+This project is licensed under the terms found in the [LICENSE](LICENSE) file.
 
-- Add usage examples after validating the project entrypoint.
+## Status
 
-## Project Status
-
-- Category: learning_project
-- Priority: low
-
-## Repository Maintenance
-
-This repository has been reviewed for naming, metadata and documentation
-consistency.
-
-## Suggested Actions
-
-- None
-
-## Review Notes
-
-It looks like a practice or learning repository.
-
-- Stack: android
-- Project type: calculator, mobile-application
-- Position as learning or practice work, not production software.
+This is a learning-stage project. It is not intended for production use.
