@@ -1,67 +1,90 @@
-# Android Calculator — Java
-
-A simple calculator Android application built with Java and Android Studio as a hands-on learning project.
-
----
+# android-calculator-java
 
 ## Overview
 
-This project implements a basic arithmetic calculator for Android. It was created to practise Android UI development, event handling, and Java fundamentals in a mobile context.
-
-## Features
-
-- Addition, subtraction, multiplication, and division
-- Clear and delete controls
-- Responsive Android UI built with XML layouts
-- Written entirely in Java
+This repository contains a Java project prepared as part of a personal
+GitHub portfolio.
 
 ## Tech Stack
 
-| Layer | Technology |
-|---|---|
-| Language | Java |
-| IDE | Android Studio |
-| Platform | Android (mobile) |
-| Build system | Gradle |
+- Primary language: Java
+- Frameworks and tools: android
+- Project type: calculator, mobile-application
 
-## Getting Started
+## Repository Snapshot
 
-### Prerequisites
+- Main language: Java
+- Category: learning_project
+- Priority: low
+- Days since update: 3
+- Has description: True
+- Has topics: True
+- Has README: True
+- Portfolio status: learning
+- Quality signals: has-license
 
-- Android Studio (Hedgehog or later recommended)
-- JDK 11 or higher
-- An Android emulator or a physical device running Android 6.0+
+## Suggested Topics
 
-### Installation
+- android
+- calculator
+- java
+- learning-project
+- mobile-application
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/DiegR02/java-android-studio-calculator.git
+## Project Structure
 
-# 2. Open the project in Android Studio
-#    File → Open → select the cloned folder
+Observed repository paths:
 
-# 3. Let Gradle sync finish, then run the app on an emulator or device
-```
+- Android-Studio.png
+- Calculator
+- Calculator/app
+- Calculator/app/.gitignore
+- Calculator/app/build.gradle
+- Calculator/app/proguard-rules.pro
+- Calculator/app/src
+- Calculator/app/src/androidTest
+- Calculator/app/src/main
+- Calculator/app/src/test
+- Calculator/build.gradle
+- Calculator/gradle
+- Calculator/gradle.properties
+- Calculator/gradle/wrapper
+- Calculator/gradle/wrapper/gradle-wrapper.jar
+- Calculator/gradle/wrapper/gradle-wrapper.properties
+- Calculator/gradlew
+- Calculator/gradlew.bat
+- Calculator/local.properties
+- Calculator/settings.gradle
+- LICENSE
+- README.md
+
+## Installation
+
+- Review the repository source files to confirm setup requirements.
+- Add exact commands after human validation.
 
 ## Usage
 
-1. Launch the app on your emulator or device.
-2. Tap number buttons to enter operands.
-3. Tap an operator button (`+`, `-`, `×`, `÷`) to choose an operation.
-4. Tap `=` to see the result.
-5. Tap `C` to clear the current input or `DEL` to remove the last digit.
+- Add usage examples after validating the project entrypoint.
 
 ## Project Status
 
-| Field | Value |
-|---|---|
-| Status | Learning / Practice |
-| Category | Practice project |
-| Priority | Low |
+- Category: learning_project
+- Priority: low
 
-This is a learning-focused repository. Contributions and suggestions are welcome, but active maintenance is not guaranteed.
+## Repository Maintenance
 
-## License
+This repository has been reviewed for naming, metadata and documentation
+consistency.
 
-This project is licensed under the terms found in the [LICENSE](LICENSE) file.
+## Suggested Actions
+
+- None
+
+## Review Notes
+
+It looks like a practice or learning repository.
+
+- Stack: android
+- Project type: calculator, mobile-application
+- Position as learning or practice work, not production software.
